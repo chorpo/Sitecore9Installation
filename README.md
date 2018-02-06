@@ -1,6 +1,6 @@
-# Sitecore 9.0.1 Installation
+# Sitecore 9.0.1 Installation Scripts
 
-This repository contains files that will help you install Sitecore 9.0.1.
+This repository contains Powershell scripts that will help you install Sitecore 9.0.1.
 
 More details can be found in these blog posts:
 - [Preparing virtual machine](http://tothecore.sk/2018/02/04/installing-sitecore-9-0-1-part-1-3-preparing-virtual-machine)
