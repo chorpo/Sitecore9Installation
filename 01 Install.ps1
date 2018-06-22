@@ -1,5 +1,9 @@
+Import-Module SitecoreFundamentals
+
+Import-Module SitecoreInstallFramework
+
 #define parameters 
-$prefix = "sc9" 
+$prefix = "sc9u2" 
 $PSScriptRoot = "C:\resourcefiles\"
 $XConnectCollectionService = "$prefix.xconnect" 
 $sitecoreSiteName = "$prefix.sc" 
@@ -8,7 +12,7 @@ $SolrRoot = "C:\Solr\solr-6.6.2\"
 $SolrService = "Solr" 
 $SqlServer = ".\" 
 $SqlAdminUser = "sa" 
-$SqlAdminPassword= "b"
+$SqlAdminPassword= "S1t3c0r3" 
 
 #$solrParams = @{     
 #    Path = "$PSScriptRoot\sitecore-solr.json"     
@@ -42,7 +46,7 @@ Install-SitecoreConfiguration @solrParams -Verbose
 #deploy xconnect instance 
 $xconnectParams = @{     
     Path = "$PSScriptRoot\xconnect-xp0.json"     
-    Package = "$PSScriptRoot\Sitecore 9.0.1 rev. 171219 (OnPrem)_xp0xconnect.scwdp.zip"     
+    Package = "$PSScriptRoot\Sitecore * (OnPrem)_xp0xconnect.scwdp.zip"     
     LicenseFile = "$PSScriptRoot\license.xml"     
     Sitename = $XConnectCollectionService     
     XConnectCert = $certParams.CertificateName     
@@ -72,7 +76,7 @@ $xconnectHostName = "$prefix.xconnect"
 $sitecoreParams = 
 @{     
     Path = "$PSScriptRoot\sitecore-XP0.json"     
-    Package = "$PSScriptRoot\Sitecore 9.0.1 rev. 171219 (OnPrem)_single.scwdp.zip"  
+    Package = "$PSScriptRoot\Sitecore * (OnPrem)_single.scwdp.zip"  
     LicenseFile = "$PSScriptRoot\license.xml"     
     SqlDbPrefix = $prefix  
     SqlServer = $SqlServer  

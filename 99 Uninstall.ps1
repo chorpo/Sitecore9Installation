@@ -1,12 +1,12 @@
 param(
 	#Website related parameters
-	[string]$Prefix = 'sc9u1',
+	[string]$Prefix = 'sc9u2',
 	[string]$WebsiteOhysicalRootPath = 'C:\inetpub\wwwroot\',
 
 	#Database related parameters
 	[string]$SQLInstanceName = '.\',
 	[string]$SQLUsername = 'sa',
-	[string]$SQLPassword = 'b',
+	[string]$SQLPassword = 'S1t3c0r3',
 
 	#Certificate related parameters
 	[string]$CertificateRootStore = 'Cert:\Localmachine\Root',
