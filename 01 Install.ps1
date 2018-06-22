@@ -1,5 +1,5 @@
 #define parameters 
-$prefix = "sc9u1" 
+$prefix = "sc9" 
 $PSScriptRoot = "C:\resourcefiles\"
 $XConnectCollectionService = "$prefix.xconnect" 
 $sitecoreSiteName = "$prefix.sc" 
