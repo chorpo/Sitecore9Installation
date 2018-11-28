@@ -1,8 +1,11 @@
-# Sitecore 9.0.x Installation Scripts
+# Sitecore 9.x Installation Scripts
 
-This repository contains Powershell scripts that will help you install Sitecore 9.0.x.
+This repository contains Powershell scripts that will help you install Sitecore 9.x.
 
 More details can be found in below blog posts.
+
+For Sitecore 9.1 Initial Release:
+- [Sitecore 9.1 Initial Release Installation Guide for Development Machine](https://tothecore.sk/2018/11/28/sitecore-9-1-initial-release-installation-guide-for-development-machine)
 
 For Sitecore 9.0.2 - Sitecore 9 Update 2:
 - [Installing Sitecore 9.0.2](http://tothecore.sk/2018/06/22/sitecore-9-update-2-sitecore-9-0-2-installation)
