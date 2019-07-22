@@ -1,6 +1,6 @@
 Param(  
     $installFolder = "c:\solr75",
-    $solrPort = "8721",
+    $solrPort = "8750",
     $solrHost = "solr75",
     $solrSSL = $true,
     $downloadFolder = "$PSScriptRoot"
